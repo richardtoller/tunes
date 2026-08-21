@@ -1,0 +1,64 @@
+body {
+  background-color: black;
+}
+
+.main {
+  max-width: 90%;
+  margin-left: 5%;
+  
+}
+
+
+
+h1 {
+  color: DimGrey;
+  font-family: "Lucida Console", "Courier New", monospace;
+  margin-left: 20px;
+  font-size: 3.5vw;
+  letter-spacing: 6px;
+}
+h2 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: DimGrey;
+  margin-left: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 3.3vw !important;
+}
+
+th, td {
+  padding: 12px;
+}
+
+tr:nth-child(even) {
+  background-color: #202020;
+}
+
+tr:nth-child(odd) {
+  background-color: #131313;
+}
+
+.setlist_table {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+td {
+  color: #e8e8e8;
+  font-family: "Lucida Console", "Courier New", monospace;
+  word-wrap: break-word;
+  max-width: 320px;
+  min-width: 10px !important;
+  font-size: 1.9vw;  
+  
+}
+
+th {
+  color: GoldenRod;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: left;
+  min-width: 10px !important;  
+  font-size: 2.0vw;  
+}

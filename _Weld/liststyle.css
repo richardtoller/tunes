@@ -1,0 +1,84 @@
+body {
+  background-color: black;
+}
+
+h1.setlist {
+  color: DimGrey;
+  font-family: "Lucida Console", "Courier New", monospace;
+  margin-left: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 3vw;
+  letter-spacing: 4px;
+}
+
+h2.setlist {
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: GoldenRod;
+  margin-bottom: 5px !important;
+  letter-spacing: 1.2px;  
+  font-size: 2vw;
+}
+
+p.setlist {
+  font-family: Georgia, Garamond, serif;
+  margin-left: 10px;
+  font-size: 2.2vw;
+  letter-spacing: 1.5px;
+}
+
+li.setlist {
+  font-family: Georgia, Garamond, serif;
+  margin-left: -25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 1.5vw;
+  letter-spacing: 1.5px;
+  
+}
+
+li.setlist::marker {
+  color: DimGrey;
+}
+
+
+li.setlist {
+  display: flex;
+  align-items: center;
+}
+
+li.setlist::before {
+  content: "";
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  background: grey;
+  margin-right: .3rem;
+}
+
+a:link {
+  text-decoration: none;
+  color: #999999;
+  margin-left: 10px;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #999999;
+}
+
+a:hover {
+  color: DarkGoldenRod;
+}
+
+a:link.new_set {
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: #ba456e;
+}
+
+a:visited.new_set {
+  text-decoration: none;
+  color: #ba456e;
+}
+
