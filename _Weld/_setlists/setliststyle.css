@@ -8,8 +8,6 @@ body {
   
 }
 
-
-
 h1 {
   color: DimGrey;
   font-family: "Lucida Console", "Courier New", monospace;
@@ -30,6 +28,13 @@ th, td {
   padding: 12px;
 }
 
+p {
+  color: #e8e8e8;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 1.9vw;
+  margin-left: 2vw;
+}
+
 tr:nth-child(even) {
   background-color: #202020;
 }
@@ -44,6 +49,9 @@ tr:nth-child(odd) {
   margin-right: auto;
 }
 
+a {
+  color: #3888e8;
+}
 
 td {
   color: #e8e8e8;
@@ -52,7 +60,6 @@ td {
   max-width: 320px;
   min-width: 10px !important;
   font-size: 1.9vw;  
-  
 }
 
 th {

@@ -1,14 +1,13 @@
 \version "2.16.0"
-\include "/home/richard/Dropbox/tunes/public/polkas/thedistiller.ly"
-\include "/home/richard/Dropbox/tunes/public/polkas/fairquakerofdeal.ly"
-\include "arrangement_notes.ly"
+\include "/home/richard/Dropbox/tunes/public/hornpipes/huntthehare.ly"
+\include "/home/richard/Dropbox/tunes/public/hornpipes/devilsdead.ly"
 \header { 
     copyright = ""
     subtitle = "  "
     title = \markup {
       \override #'(font-size . 4)
       \override #'(font-name . "URW Palladio L")
-      "The Distiller, Fair Quaker of Deal"
+      "Hunt The Hare, The Devil's Dead"
       }
     tagline = ""
 }
@@ -34,9 +33,9 @@
         \new ChordNames {
             %%\set chordChanges = ##t
             \override ChordName .font-size = #-1
-            \thedistillerchords
+            \hunttheharechords
         }
-        \new Staff \thedistillermelody
+        \new Staff \hunttheharemelody
     >>
     \layout {
         \context {
@@ -46,19 +45,19 @@
         }
     }
     \header {
-        piece = \markup { \fontsize #1 \thedistillertitle }
-        opus = \markup { \with-color #(rgb-color 0.4 0.4 0.4) \fontsize #0.1 \thedistillernotes }
+        piece = \markup { \fontsize #1 \hunttheharetitle }
+        opus = \markup { \with-color #(rgb-color 0.4 0.4 0.4) \fontsize #0.1 \hunttheharenotes }
     }
 }
-\markup { \raise #4 \italic { \thedistillersourcetext}}
+\markup { \raise #4 \italic { \hunttheharesourcetext}}
 \score {
     <<
         \new ChordNames {
             %%\set chordChanges = ##t
             \override ChordName .font-size = #-1
-            \transpose g d \fairquakerofdealchords
+            \devilsdeadchords
         }
-        \new Staff \transpose g d \fairquakerofdealmelody
+        \new Staff \devilsdeadmelody
     >>
     \layout {
         \context {
@@ -68,9 +67,8 @@
         }
     }
     \header {
-        piece = \markup { \fontsize #1 \fairquakerofdealtitle }
-        opus = \markup { \with-color #(rgb-color 0.4 0.4 0.4) \fontsize #0.1 \fairquakerofdealnotes }
+        piece = \markup { \fontsize #1 \devilsdeadtitle }
+        opus = \markup { \with-color #(rgb-color 0.4 0.4 0.4) \fontsize #0.1 \devilsdeadnotes }
     }
 }
-\markup { \raise #4 \italic { \fairquakerofdealsourcetext}}
-\arrangement_notes
+\markup { \raise #4 \italic { \devilsdeadsourcetext}}

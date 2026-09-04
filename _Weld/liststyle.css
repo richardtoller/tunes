@@ -6,39 +6,59 @@ h1.setlist {
   color: DimGrey;
   font-family: "Lucida Console", "Courier New", monospace;
   margin-left: 0px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-size: 3vw;
-  letter-spacing: 4px;
+  margin-top: 0;
+  margin-bottom: 2vw;
+  font-size: 4.5vw;
+  letter-spacing: 0.1vw;
 }
 
 h2.setlist {
   font-family: "Lucida Console", "Courier New", monospace;
   color: GoldenRod;
-  margin-bottom: 5px !important;
-  letter-spacing: 1.2px;  
-  font-size: 2vw;
+  margin-bottom: 0.2vw !important;
+  letter-spacing: 0.1vw;  
+  font-size: 3.5vw;
 }
 
 p.setlist {
   font-family: Georgia, Garamond, serif;
-  margin-left: 10px;
-  font-size: 2.2vw;
-  letter-spacing: 1.5px;
+  margin-left: 1vw;
+  font-size: 2.5vw;
+  letter-spacing: 0.1vw;
+}
+
+ul {
+  margin-top: 0px;
+  padding-left: 1vw;
+}
+
+
+@media (min-width: 869px) {
+  ul {
+    
+    margin-right: -8vw;
+  }
 }
 
 li.setlist {
   font-family: Georgia, Garamond, serif;
-  margin-left: -25px;
+  margin-left: -10px;
   margin-top: 0px;
   margin-bottom: 0px;
-  font-size: 1.5vw;
-  letter-spacing: 1.5px;
+  font-size: 3.1vw;
+  letter-spacing: 0.1vw;
   
+}
+
+@media (min-width: 869px) {
+  li.setlist {
+    font-size: 27px;
+  }
 }
 
 li.setlist::marker {
   color: DimGrey;
+  font-size: 0.5em;
 }
 
 
@@ -49,8 +69,8 @@ li.setlist {
 
 li.setlist::before {
   content: "";
-  width: 0.7rem;
-  height: 0.7rem;
+  width: 1.0vw;
+  height: 1.0vw;
   border-radius: 50%;
   background: grey;
   margin-right: .3rem;
@@ -68,11 +88,10 @@ a:visited {
 }
 
 a:hover {
-  color: DarkGoldenRod;
+  color: #6699ff;
 }
 
 a:link.new_set {
-  font-weight: bold;
   letter-spacing: 1.5px;
   color: #ba456e;
 }
@@ -82,3 +101,6 @@ a:visited.new_set {
   color: #ba456e;
 }
 
+a.new_set:hover {
+  color: #6699ff;
+}

@@ -1,5 +1,6 @@
 theflighttitle = "The Flight"
 theflightsourcetext = ""
+theflightnotes = ""
 theflightmelody = \relative c'' {
   \clef treble
   \key d \major

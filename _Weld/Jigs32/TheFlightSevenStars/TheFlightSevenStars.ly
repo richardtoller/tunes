@@ -1,6 +1,7 @@
 \version "2.16.0"
-\include "/home/richard/Dropbox/tunes/jigs/theflight.ly"
-\include "/home/richard/Dropbox/tunes/jigs/sevenstars.ly"
+\include "/home/richard/Dropbox/tunes/public/jigs/theflight.ly"
+\include "/home/richard/Dropbox/tunes/public/jigs/sevenstars.ly"
+\include "arrangement_notes.ly"
 \header { 
     copyright = ""
     subtitle = "  "
@@ -18,10 +19,14 @@
     top-margin = 15
     raggedlastbottom = ##t
     indent = 0.0
+    markup-system-spacing =
+      #'((basic-distance . 9)
+         (padding . 0.5)
+         (stretchability . 30)) 
     system-system-spacing =
       #'((basic-distance . 8)
          (minimum-distance . 4)
-         (padding . 2)
+         (padding . 3)
          (stretchability . 60)) % defaults: 12, 8, 1, 60
 }
 \score {
@@ -42,6 +47,7 @@
     }
     \header {
         piece = \markup { \fontsize #1 \theflighttitle }
+        opus = \markup { \with-color #(rgb-color 0.4 0.4 0.4) \fontsize #0.1 \theflightnotes }
     }
 }
 \markup { \raise #4 \italic { \theflightsourcetext}}
@@ -63,6 +69,8 @@
     }
     \header {
         piece = \markup { \fontsize #1 \sevenstarstitle }
+        opus = \markup { \with-color #(rgb-color 0.4 0.4 0.4) \fontsize #0.1 \sevenstarsnotes }
     }
 }
 \markup { \raise #4 \italic { \sevenstarssourcetext}}
+\arrangement_notes

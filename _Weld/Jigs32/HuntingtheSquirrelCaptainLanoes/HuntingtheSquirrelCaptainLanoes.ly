@@ -1,6 +1,6 @@
 \version "2.16.0"
-\include "/home/richard/Dropbox/tunes/jigs/huntingthesquirrel.ly"
-\include "/home/richard/Dropbox/tunes/jigs/captainlanoes.ly"
+\include "/home/richard/Dropbox/tunes/public/jigs/huntingthesquirrel.ly"
+\include "/home/richard/Dropbox/tunes/public/jigs/captainlanoes.ly"
 \include "arrangement_notes.ly"
 \header { 
     copyright = ""

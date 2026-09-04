@@ -20,9 +20,9 @@ huntingthesquirrelmelody = \relative c'' {
     c4 d8 e d c |
     c4 d8 e4 fis8 |
     g4. g8 fis e |
-    d8 b4 d8 b4 |
-    d8 b4 d4. |
-    g,8 a b a4 g8 |
+    d4 b8 d4 b8 |
+    d4. b4. |
+    g8 a b a4 g8 |
     g4. g4. |
     }
   }

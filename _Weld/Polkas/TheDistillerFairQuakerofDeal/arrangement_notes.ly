@@ -8,8 +8,8 @@ arrangement_notes = \markup \left-column {
   \line {\bold{Guitar} "minimal (high) Am chords the first and second times through, 12th fret A string harmonics."}
   \line {"Then can alternate A and C in bass."}
   \line {" "}
-  \line {\large \smallCaps "Bristol"}
-  \line {"Build volume in B music. Guitar move seventh chord up neck."}
+  \line {\large \smallCaps "Fair Quaker of Deal"}
+  \line {"Build volume in B music. Drone on E works in E7 section. Guitar move seventh chord up neck."}
   \line {"Last time through, short sharp ending."}
 }
 
