@@ -34,9 +34,9 @@ tenstoreyflockofbatschords = \chordmode {
     \partial 8 s8 |
     g2. |
     d |
-    c4. g |
+    c |
     d2. |
-    g2. |
+    e2.:m |
     d:7 |
     g4. d |
     g4. s4

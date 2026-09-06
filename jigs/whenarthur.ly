@@ -15,7 +15,7 @@ whenarthurmelody = \relative c'' {
     bes4 a8 g4 a8 |
     bes4 g8 a4 bes8 |
     g4. g4. |
-    }
+    } 
   \repeat volta 2 { 
     \partial 8 f8 | 
     bes4 bes8 bes d f |
@@ -43,12 +43,12 @@ whenarthurchords = \chordmode {
 
   \partial 8 s8 |
     bes2. |
+    d2.:m |
     g2.:m |
-    g2.:m |
-    f |
+    d:m |
     bes2. | 
     g:m |
-    f4. bes |
+    d:m |
     f2.
   
   
