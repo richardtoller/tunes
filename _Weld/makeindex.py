@@ -80,6 +80,11 @@ of.write('<body>\n')
 
 of.write('<h1 class="setlist">Weld tunes</h1>\n')
 
+
+# new suggestions
+of.write('<h2 class="setlist">new suggestions</h2>\n')
+processFolder(of, "NewSuggestions")
+
 # 32-bar jigs
 of.write('<h2 class="setlist">32-bar jigs</h2>\n')
 
@@ -116,7 +121,6 @@ processFolder(of, "Waltzes")
 #abandoned
 of.write('<h2 class="setlist">abandoned (for now)</h2>\n')
 processFolder(of, "Abandoned")
-
 
 # write the bottom stuff
 of.write('</body>\n')
