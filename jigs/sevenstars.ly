@@ -40,8 +40,8 @@ sevenstarschords = \chordmode {
   }
   \repeat volta 2 {
    a2. |
-   a4. d |
-   a d |
+   a4. b:m |
+   b2.:m |
    a2. |
    g4. d |
    g d |

@@ -1,6 +1,6 @@
 \version "2.16.0"
-\include "/home/richard/Dropbox/tunes/public/jigs/theflight.ly"
-\include "/home/richard/Dropbox/tunes/public/jigs/sevenstars.ly"
+\include "../../../jigs/theflight.ly"
+\include "../../../jigs/sevenstars.ly"
 \include "arrangement_notes.ly"
 \header { 
     copyright = ""
